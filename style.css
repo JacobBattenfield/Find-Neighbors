@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: rgb(135, 178, 184);
+}
+.grid{
+    border: 2px solid black;
+    width:800px;
+    height:800px;   
+    margin: 50px auto;
+    background-color: blanchedalmond;
+    display: grid;
+    gap:10px;
+}
+.elem{
+    background-color: brown;
+    height:50px;
+    width:50px;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width:200px;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    position: relative;
+    left: 50%;
+    top:20px;  
+    transform: translate(-50%);
+    text-align: center;
+}
+button{
+    position: relative;
+    left:50%;
+    top:20px;
+    transform: translate(-90px);
+}

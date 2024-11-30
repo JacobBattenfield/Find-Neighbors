@@ -1,0 +1,1 @@
+This is practice for the future when I want to make games and stuff, the challenge here is to find all neighboring squares in a massive array
